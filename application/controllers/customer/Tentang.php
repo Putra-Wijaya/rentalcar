@@ -23,10 +23,10 @@
 			$deskripsi = $this->input->post('deskripsi');
 	
 			// Konfigurasi email
-			$config['protocol'] = 'mail'; // Change protocol to 'mail' to avoid SMTP server response issue
-			$config['mailpath'] = '/usr/sbin/sendmail'; // Set the mailpath for sending emails
-			$config['smtp_host'] = ''; // Set SMTP host to empty to avoid SMTP server response issue
-			$config['mailtype'] = 'text'; // Set mailtype to 'text' to avoid HTML formatting issues
+			$config['protocol'] = 'mail'; 
+			$config['mailpath'] = '/usr/sbin/sendmail'; 
+			$config['smtp_host'] = '';
+			$config['mailtype'] = 'text';
 	
 			// Load library email
 			$this->load->library('email');
@@ -34,7 +34,7 @@
 	
 			// Set pengirim, penerima, subjek, dan pesan email
 			$this->email->from($email);
-			$this->email->to('pwjaya18@gmail.com');
+			$this->email->to('email@gmail.com');
 			$this->email->subject('Pesan dari Formulir Kontak Nusa Rent Car');
 			$this->email->message("Deskripsi: $deskripsi");
 			$this->email->set_newline("\r\n");
