@@ -21,7 +21,7 @@
 <ul class="social_icon">
 		<li><a href="https://www.google.com/maps/place/SF3+PANCING/@-6.2727145,106.9292618,16.7z/data=!4m6!3m5!1s0x2e698d3ea96c944f:0x17060aa15967723a!8m2!3d-6.2727527!4d106.9317853!16s%2Fg%2F11f03m7v9b?entry=ttu"><ion-icon name="location-outline"></ion-icon></a></li>
 		<li><a href="https://api.whatsapp.com/send?phone=6285156072370"><ion-icon name="logo-whatsapp"></ion-icon></a></li>
-		<li><a href="https://www.instagram.com/fairus_style/"><ion-icon name="logo-instagram"></ion-icon></a> </li>
+		<li><a href="https://www.instagram.com/nusa.rc/"><ion-icon name="logo-instagram"></ion-icon></a> </li>
 	</ul>
 	
 
