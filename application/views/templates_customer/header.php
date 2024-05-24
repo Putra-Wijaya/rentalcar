@@ -40,8 +40,8 @@
 <body class="loader-active">
 	<nav class="navbar1">
         <div class="logo">
-			<!-- <img src="<?php echo base_url() ?>assets/logo.png" alt="JSOFT" width="100px"> -->
-            <h4>Nusa Rent Car</h4>
+			<!-- <img src="<?php echo base_url() ?>logo.png"width="150px">  -->
+			<h4>Nusa Rent Car</h4>
 			
         </div>
 
