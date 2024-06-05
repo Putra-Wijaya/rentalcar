@@ -16,6 +16,7 @@
 
     <title>Nusa Rent Car</title>
 
+	<link rel="shortcut icon" type="image/png/jpg" href="<?php echo base_url('assets/logo.png') ?>"/>
 	<!--=== Bootstrap CSS ===-->
     <link href="<?php echo base_url() ?>assets/assets_shop/css/bootstrap.min.css" rel="stylesheet">
     <!--=== Vegas Min CSS ===-->
