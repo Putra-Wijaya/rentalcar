@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 23 Apr 2024 pada 09.59
+-- Waktu pembuatan: 02 Nov 2024 pada 03.47
 -- Versi server: 10.4.24-MariaDB
 -- Versi PHP: 7.4.28
 
@@ -99,7 +99,7 @@ CREATE TABLE `mobil` (
 
 INSERT INTO `mobil` (`id_mobil`, `nama_rental`, `kode_type`, `merk`, `no_plat`, `warna`, `tahun`, `status`, `harga`, `denda`, `ac`, `supir`, `mp3_player`, `central_lock`, `gambar`) VALUES
 (20, 'Nusa Rent Car', 'SDN', 'Rolls-Royce', 'B 43 I', 'Hitam', 'Hita', '1', 45000000, 500000, 1, 1, 1, 1, 'rolls-royce-removebg-preview.png'),
-(22, 'Nusa Rent Car', 'MPV', 'Mitsubishi Strada ', 'B 5674 TSM', 'Hitam', '2015', '0', 250000, 500000, 1, 1, 1, 1, 'PUD_Mitsubishi_Strada_2015_-_Black1.jpg'),
+(22, 'Nusa Rent Car', 'MPV', 'Mitsubishi Strada ', 'B 5674 TSM', 'Hitam', '2015', '1', 250000, 500000, 1, 1, 1, 1, 'PUD_Mitsubishi_Strada_2015_-_Black1.jpg'),
 (23, 'Nusa Rent Car', 'SDN', 'Civic turbo', 'B 5674 TSM', 'Putih', 'Hita', '1', 250000, 500000, 1, 1, 1, 1, 'civic1.png');
 
 -- --------------------------------------------------------
@@ -182,8 +182,8 @@ CREATE TABLE `transaksi` (
 --
 
 INSERT INTO `transaksi` (`id_rental`, `id_customer`, `id_mobil`, `nama_rental`, `tanggal_rental`, `tanggal_kembali`, `harga`, `denda`, `total_denda`, `tanggal_pengembalian`, `status_pengembalian`, `status_rental`, `bukti_pembayaran`, `status_pembayaran`) VALUES
-(16, 24, 20, 'Nusa Rent Car', '2024-03-30', '2024-03-31', 250000, -1, '0', '2024-03-31', 'Belum Kembali', 'Belum Selesai', 'Bukti_Pembayaran_Contoh1.jpg', 1),
-(17, 24, 22, 'Nusa Rent Car', '2024-04-17', '2024-04-18', 250000, 500000, '0', '0000-00-00', 'Belum Kembali', 'Belum Selesai', 'Bukti_Pembayaran_Contoh11.jpg', 0);
+(16, 24, 20, 'Nusa Rent Car', '2024-03-30', '2024-03-31', 250000, -1, '0', '2024-03-31', 'Kembali', 'Selesai', 'Bukti_Pembayaran_Contoh1.jpg', 1),
+(17, 24, 22, 'Nusa Rent Car', '2024-04-17', '2024-04-18', 250000, 500000, '90000000', '2024-10-15', 'Kembali', 'Selesai', 'Bukti_Pembayaran_Contoh11.jpg', 1);
 
 -- --------------------------------------------------------
 
